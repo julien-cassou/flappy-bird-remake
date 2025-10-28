@@ -1,0 +1,22 @@
+# Ignorer les fichiers système d'OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorer les fichiers de configuration d'IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers objets générés par la compilation
+*.o
+*.obj
+
+# Ignorer l'exécutable final 
+main
+*.exe
+*.out
+
+# Ignorer les archives
+*.zip
+*.rar
+*.7z
