@@ -12,9 +12,9 @@
 sf::Sprite setTitle(sf::Texture& outTexture) {
     sf::Texture t1, t2;
 
-    if (!t1.loadFromFile("assets/Menu/title1.png"))
+    if (!t1.loadFromFile("assets/menu/title1.png"))
         throw std::runtime_error("title1");
-    if (!t2.loadFromFile("assets/Menu/title2.png"))
+    if (!t2.loadFromFile("assets/menu/title2.png"))
         throw std::runtime_error("title2");
 
     sf::Sprite s1(t1);
@@ -59,10 +59,10 @@ void Menu::MainMenu(sf::RenderWindow &window) {
     fond.setTexture(texture);
 
     sf::Texture TextureBouton1;
-    if (!TextureBouton1.loadFromFile("assets/Menu/play.png")) throw std::runtime_error("Erreur bouton1");
+    if (!TextureBouton1.loadFromFile("assets/menu/play.png")) throw std::runtime_error("Erreur bouton1");
 
     sf::Texture TextureBouton2;
-    if (!TextureBouton2.loadFromFile("assets/Menu/options.png")) throw std::runtime_error("Erreur bouton2");
+    if (!TextureBouton2.loadFromFile("assets/menu/options.png")) throw std::runtime_error("Erreur bouton2");
 
 
     sf::Sprite bouton1;
